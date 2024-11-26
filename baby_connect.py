@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 import google.generativeai as genai
 
-# Configure Google Gemini API
-api_key = 'AIzaSyA3SOhkZnM_M01ew8HM3ZeJdG6rhbf8DOg'
+# Configure Google Gemini API using secrets
+api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 
 
