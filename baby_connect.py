@@ -121,7 +121,7 @@ st.markdown(
 )
 
 ################################ SIDEBAR #########################################################################
-page = st.sidebar.radio("Select a page", options=["Home", "Facts & Figures", "My Baby", "Get Advice", "FAQ"])
+page = st.sidebar.radio("Select a page", options=["Home", "Facts & Figures", "My Baby", "Get Advice", "FAQ", "Get Report"])
 
 
 
@@ -293,3 +293,8 @@ elif page == "FAQ":
     st.subheader("5. When should I start introducing solid foods?")
     st.write("Solid foods can be introduced around 6 months old, but consult your pediatrician to ensure your baby is ready.")
 
+#################################### PDF REPORT #######################################################################
+
+elif page == "Get Report":
+    st.title("Get your Baby's Report ")
+    st.write("Soon to come...")
