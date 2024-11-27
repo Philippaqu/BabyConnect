@@ -121,7 +121,7 @@ st.markdown(
 )
 
 ################################ SIDEBAR #########################################################################
-page = st.sidebar.radio("Select a page", options=["Home", "My Baby", "Facts & Figures", "Get Advice", "FAQ"])
+page = st.sidebar.radio("Select a page", options=["Home", "Facts & Figures", "My Baby", "Get Advice", "FAQ"])
 
 
 
